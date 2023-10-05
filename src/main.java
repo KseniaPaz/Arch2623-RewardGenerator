@@ -13,6 +13,7 @@ import Fabric.ItemGenerator;
 import Fabric.PotionGenerator;
 import Fabric.SilverGenerator;
 
+
 public class main {
      private static Object itemGeneratorList;
 
@@ -27,7 +28,6 @@ public class main {
              fabrics.get(index).openReward();
          }
      }
- 
 
      public static List<ItemGenerator> initFabrics() {
          List<ItemGenerator> fabrics = new ArrayList<>();
